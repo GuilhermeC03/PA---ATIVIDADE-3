@@ -21,12 +21,9 @@ int main()
   cout << "Tempo: " << i.tempo << endl << endl;
 
   cout << "Montante ao final de " << i.tempo << " anos, à juros simples: R$" << montantejurosimples (i.investimento, i.taxa, i.tempo) << endl;
-
   cout << "Montante ao final de " << i.tempo << " anos, à juros compostos: R$" << montantejurocomposto(i.investimento, i.taxa, i.tempo) << endl;
-
   cout << "Taxa juro simples " << i.taxa << "%a.a. = " << taxajs(i.taxa) << "%a.m." << endl;
-
   cout << "Taxa juro composto " << i.taxa << "%a.a. = " << taxajc(i.taxa) << "%a.m." << endl;
 
-  return 0;
+   return 0;
 }
